@@ -1,0 +1,22 @@
+2023-03-27 21:35:36.151 +06:00 [INF] User profile is available. Using 'C:\Users\asiru\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-27 21:35:36.580 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-27 21:35:36.585 +06:00 [INF] Hosting environment: Development
+2023-03-27 21:35:36.630 +06:00 [INF] Content root path: D:\Learning\asp.net-core\ATR\WebAppMVCLesson1\
+2023-03-27 21:35:36.724 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/ - -
+2023-03-27 21:35:36.856 +06:00 [INF] Executing endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1)'
+2023-03-27 21:35:36.947 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebAppMVCLesson1.Controllers.HomeController (WebAppMVCLesson1).
+2023-03-27 21:35:36.961 +06:00 [INF] A user email: abdukasi logged in "2023-03-27T21:35:36.9615807+06:00"
+2023-03-27 21:35:36.966 +06:00 [INF] LogInformation
+2023-03-27 21:35:36.970 +06:00 [ERR] LogError
+2023-03-27 21:35:37.086 +06:00 [ERR] test Error
+System.Exception: test Error
+   at WebAppMVCLesson1.Controllers.HomeController.Index() in D:\Learning\asp.net-core\ATR\WebAppMVCLesson1\Controllers\HomeController.cs:line 23
+2023-03-27 21:35:37.554 +06:00 [INF] Executing ViewResult, running view Index.
+2023-03-27 21:35:38.267 +06:00 [INF] Executed ViewResult - view Index executed in 717.3917ms.
+2023-03-27 21:35:38.299 +06:00 [INF] Executed action WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1) in 1346.5636ms
+2023-03-27 21:35:38.305 +06:00 [INF] Executed endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1)'
+2023-03-27 21:35:38.467 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/ - - - 200 - text/html;+charset=utf-8 1752.6371ms
+2023-03-27 21:35:38.888 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - -
+2023-03-27 21:35:38.907 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 18.0022ms
+2023-03-27 21:35:39.678 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - -
+2023-03-27 21:35:39.786 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 108.1012ms

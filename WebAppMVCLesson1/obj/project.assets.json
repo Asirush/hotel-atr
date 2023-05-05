@@ -4041,11 +4041,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1\\WebAppMVCLesson1.csproj",
+      "projectUniqueName": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1\\WebAppMVCLesson1.csproj",
       "projectName": "WebAppMVCLesson1",
-      "projectPath": "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1\\WebAppMVCLesson1.csproj",
+      "projectPath": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1\\WebAppMVCLesson1.csproj",
       "packagesPath": "C:\\Users\\asiru\\.nuget\\packages\\",
-      "outputPath": "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1\\obj\\",
+      "outputPath": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asiru\\AppData\\Roaming\\NuGet\\NuGet.Config",

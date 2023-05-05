@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.NewAdmin\\WebAppMVCLesson1.NewAdmin.csproj": {}
+    "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.NewAdmin\\WebAppMVCLesson1.NewAdmin.csproj": {}
   },
   "projects": {
-    "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.NewAdmin\\WebAppMVCLesson1.NewAdmin.csproj": {
+    "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.NewAdmin\\WebAppMVCLesson1.NewAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.NewAdmin\\WebAppMVCLesson1.NewAdmin.csproj",
+        "projectUniqueName": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.NewAdmin\\WebAppMVCLesson1.NewAdmin.csproj",
         "projectName": "WebAppMVCLesson1.NewAdmin",
-        "projectPath": "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.NewAdmin\\WebAppMVCLesson1.NewAdmin.csproj",
+        "projectPath": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.NewAdmin\\WebAppMVCLesson1.NewAdmin.csproj",
         "packagesPath": "C:\\Users\\asiru\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.NewAdmin\\obj\\",
+        "outputPath": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.NewAdmin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asiru\\AppData\\Roaming\\NuGet\\NuGet.Config",

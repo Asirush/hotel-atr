@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lNHVFuveEpV8Ckf/jRwujYJRNLsUcXKKirRal9cj98pB/T3PoEwK0qeDVTnUB4jfNBchyxCe90cSsWTsDPuseg==",
+  "dgSpecHash": "zjBlAbdSvbH5Snfp7usumGgBxL8ovGkIGOoJ1v7RkIvwbV7o4wJROodnFdgjPHZvna/cCFYIgOZEloviqVC/iQ==",
   "success": true,
-  "projectFilePath": "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.NewAdmin\\WebAppMVCLesson1.NewAdmin.csproj",
+  "projectFilePath": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.NewAdmin\\WebAppMVCLesson1.NewAdmin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asiru\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\asiru\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

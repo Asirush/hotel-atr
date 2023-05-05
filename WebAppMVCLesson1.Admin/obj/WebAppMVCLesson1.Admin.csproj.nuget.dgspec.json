@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj": {}
+    "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj": {}
   },
   "projects": {
-    "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj": {
+    "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj",
+        "projectUniqueName": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj",
         "projectName": "WebAppMVCLesson1.Admin",
-        "projectPath": "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj",
+        "projectPath": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj",
         "packagesPath": "C:\\Users\\asiru\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.Admin\\obj\\",
+        "outputPath": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.Admin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asiru\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj": {
-                "projectPath": "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj"
+              "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj": {
+                "projectPath": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj"
               }
             }
           }
@@ -88,11 +88,11 @@
         }
       }
     },
-    "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj": {
+    "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj",
+        "projectUniqueName": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj",
         "projectName": "WebAppMVCLesson1.Lib",
-        "projectPath": "D:\\Learning\\asp.net-core\\ATR\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj",
+        "projectPath": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}

@@ -1,0 +1,1 @@
+Scaffold-DbContext -Connection "Server=ASIRUSH-NTBOOK; Database=ATR; Trusted_Connection=true; TrustServerCertificate=true; MultipleActiveResultSets=true;" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir "Models" -ContextDir "Data" -Context "ApplicationDbContext" –NoOnConfiguring

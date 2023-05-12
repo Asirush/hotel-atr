@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.NewAdmin\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebAppMVCLesson1.NewAdmin.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebAppMVCLesson1.NewAdmin.bundle.scp.css"
+      "Id": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.NewAdmin\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AdminPanel.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AdminPanel.bundle.scp.css"
     },
     {
       "Id": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.NewAdmin\\wwwroot\\css\\site.css",
@@ -285,20 +285,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebAppMVCLesson1.NewAdmin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AdminPanel.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebAppMVCLesson1.NewAdmin.props",
-      "PackagePath": "build\\WebAppMVCLesson1.NewAdmin.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.AdminPanel.props",
+      "PackagePath": "build\\AdminPanel.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebAppMVCLesson1.NewAdmin.props",
-      "PackagePath": "buildMultiTargeting\\WebAppMVCLesson1.NewAdmin.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AdminPanel.props",
+      "PackagePath": "buildMultiTargeting\\AdminPanel.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebAppMVCLesson1.NewAdmin.props",
-      "PackagePath": "buildTransitive\\WebAppMVCLesson1.NewAdmin.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.AdminPanel.props",
+      "PackagePath": "buildTransitive\\AdminPanel.props"
     }
   ],
   "ElementsToRemove": []

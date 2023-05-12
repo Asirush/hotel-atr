@@ -151,9 +151,9 @@ namespace API.Data
             {
                 entity.HasIndex(e => e.CategoryId, "IX_Rooms_CategoryId");
 
-                entity.HasOne(d => d.Category)
+/*                entity.HasOne(d => d.Category)
                     .WithMany(p => p.Rooms)
-                    .HasForeignKey(d => d.CategoryId);
+                    .HasForeignKey(d => d.CategoryId);*/
             });
 
             modelBuilder.Entity<RoomProperty>(entity =>

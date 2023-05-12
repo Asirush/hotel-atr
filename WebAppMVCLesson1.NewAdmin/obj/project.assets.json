@@ -3515,9 +3515,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.NewAdmin\\WebAppMVCLesson1.NewAdmin.csproj",
-      "projectName": "WebAppMVCLesson1.NewAdmin",
-      "projectPath": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.NewAdmin\\WebAppMVCLesson1.NewAdmin.csproj",
+      "projectUniqueName": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.NewAdmin\\AdminPanel.csproj",
+      "projectName": "AdminPanel",
+      "projectPath": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.NewAdmin\\AdminPanel.csproj",
       "packagesPath": "C:\\Users\\asiru\\.nuget\\packages\\",
       "outputPath": "D:\\Learning\\hotel-atr\\WebAppMVCLesson1.NewAdmin\\obj\\",
       "projectStyle": "PackageReference",

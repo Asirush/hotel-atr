@@ -1,0 +1,22 @@
+2023-05-12 21:02:34.052 +06:00 [INF] User profile is available. Using 'C:\Users\asiru\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-12 21:02:34.395 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-12 21:02:34.400 +06:00 [INF] Hosting environment: Development
+2023-05-12 21:02:34.403 +06:00 [INF] Content root path: D:\Learning\hotel-atr\WebAppMVCLesson1\
+2023-05-12 21:02:34.461 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/ - -
+2023-05-12 21:02:34.592 +06:00 [INF] Executing endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (HotelWEB)'
+2023-05-12 21:02:34.841 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebAppMVCLesson1.Controllers.HomeController (HotelWEB).
+2023-05-12 21:02:34.857 +06:00 [INF] A user email: abdukasi logged in "2023-05-12T21:02:34.8567282+06:00"
+2023-05-12 21:02:34.865 +06:00 [INF] LogInformation
+2023-05-12 21:02:34.871 +06:00 [ERR] LogError
+2023-05-12 21:02:35.004 +06:00 [ERR] test Error
+System.Exception: test Error
+   at WebAppMVCLesson1.Controllers.HomeController.Index() in D:\Learning\hotel-atr\WebAppMVCLesson1\Controllers\HomeController.cs:line 23
+2023-05-12 21:02:35.278 +06:00 [INF] Executing ViewResult, running view Index.
+2023-05-12 21:02:35.902 +06:00 [INF] Executed ViewResult - view Index executed in 628.7537ms.
+2023-05-12 21:02:35.924 +06:00 [INF] Executed action WebAppMVCLesson1.Controllers.HomeController.Index (HotelWEB) in 1070.9781ms
+2023-05-12 21:02:35.929 +06:00 [INF] Executed endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (HotelWEB)'
+2023-05-12 21:02:36.070 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/ - - - 200 - text/html;+charset=utf-8 1614.9607ms
+2023-05-12 21:02:36.210 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - -
+2023-05-12 21:02:36.227 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 16.4634ms
+2023-05-12 21:02:36.357 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - -
+2023-05-12 21:02:36.481 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 123.8413ms

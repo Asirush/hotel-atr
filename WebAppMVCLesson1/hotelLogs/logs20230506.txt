@@ -1,0 +1,351 @@
+2023-05-06 15:05:17.277 +06:00 [INF] User profile is available. Using 'C:\Users\asiru\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-06 15:05:17.446 +06:00 [INF] Creating key {ab3d3a26-7c5f-42c9-b74a-4913e10733a1} with creation date 2023-05-06 09:05:17Z, activation date 2023-05-06 09:05:17Z, and expiration date 2023-08-04 09:05:17Z.
+2023-05-06 15:05:17.461 +06:00 [INF] Writing data to file 'C:\Users\asiru\AppData\Local\ASP.NET\DataProtection-Keys\key-ab3d3a26-7c5f-42c9-b74a-4913e10733a1.xml'.
+2023-05-06 15:05:17.576 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-06 15:05:17.585 +06:00 [INF] Hosting environment: Development
+2023-05-06 15:05:17.588 +06:00 [INF] Content root path: D:\Learning\hotel-atr\WebAppMVCLesson1\
+2023-05-06 15:05:17.642 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/ - -
+2023-05-06 15:05:17.925 +06:00 [INF] Executing endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1)'
+2023-05-06 15:05:17.958 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebAppMVCLesson1.Controllers.HomeController (WebAppMVCLesson1).
+2023-05-06 15:05:17.963 +06:00 [INF] A user email: abdukasi logged in "2023-05-06T15:05:17.9633003+06:00"
+2023-05-06 15:05:17.965 +06:00 [INF] LogInformation
+2023-05-06 15:05:17.967 +06:00 [ERR] LogError
+2023-05-06 15:05:18.020 +06:00 [ERR] test Error
+System.Exception: test Error
+   at WebAppMVCLesson1.Controllers.HomeController.Index() in D:\Learning\hotel-atr\WebAppMVCLesson1\Controllers\HomeController.cs:line 23
+2023-05-06 15:05:18.127 +06:00 [INF] Executing ViewResult, running view Index.
+2023-05-06 15:05:18.375 +06:00 [INF] Executed ViewResult - view Index executed in 251.3223ms.
+2023-05-06 15:05:18.384 +06:00 [INF] Executed action WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1) in 423.1303ms
+2023-05-06 15:05:18.386 +06:00 [INF] Executed endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1)'
+2023-05-06 15:05:18.506 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/font-awesome.min.css - -
+2023-05-06 15:05:18.515 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/style.css - -
+2023-05-06 15:05:18.517 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/bootstrap.min.css - -
+2023-05-06 15:05:18.531 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/js/vendor/modernizr-2.8.3.min.js - -
+2023-05-06 15:05:18.544 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/shortcode/shortcodes.css - -
+2023-05-06 15:05:18.546 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/responsive.css - -
+2023-05-06 15:05:18.551 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/ - - - 200 - text/html;+charset=utf-8 912.4532ms
+2023-05-06 15:05:18.597 +06:00 [INF] Sending file. Request path: '/css/responsive.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\responsive.css'
+2023-05-06 15:05:18.599 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/responsive.css - - - 200 11221 text/css 53.5957ms
+2023-05-06 15:05:18.607 +06:00 [INF] Sending file. Request path: '/css/shortcode/shortcodes.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\shortcode\shortcodes.css'
+2023-05-06 15:05:18.607 +06:00 [INF] Sending file. Request path: '/css/font-awesome.min.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\font-awesome.min.css'
+2023-05-06 15:05:18.607 +06:00 [INF] Sending file. Request path: '/css/style.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\style.css'
+2023-05-06 15:05:18.611 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/shortcode/shortcodes.css - - - 200 667 text/css 66.6174ms
+2023-05-06 15:05:18.617 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/font-awesome.min.css - - - 200 31024 text/css 114.9180ms
+2023-05-06 15:05:18.619 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/shortcode/header.css - -
+2023-05-06 15:05:18.620 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/shortcode/default.css - -
+2023-05-06 15:05:18.630 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/material-design-iconic-font.css - -
+2023-05-06 15:05:18.623 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/shortcode/footer.css - -
+2023-05-06 15:05:18.622 +06:00 [INF] Sending file. Request path: '/js/vendor/modernizr-2.8.3.min.js'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\js\vendor\modernizr-2.8.3.min.js'
+2023-05-06 15:05:18.620 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/shortcode/slider.css - -
+2023-05-06 15:05:18.641 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/js/vendor/modernizr-2.8.3.min.js - - - 200 15514 application/javascript 109.0588ms
+2023-05-06 15:05:18.620 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/material-design-iconic-font.min.css - -
+2023-05-06 15:05:18.645 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/magnific-popup.css - -
+2023-05-06 15:05:18.607 +06:00 [INF] Sending file. Request path: '/css/bootstrap.min.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\bootstrap.min.css'
+2023-05-06 15:05:18.632 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/animate.css - -
+2023-05-06 15:05:18.662 +06:00 [INF] Sending file. Request path: '/css/shortcode/footer.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\shortcode\footer.css'
+2023-05-06 15:05:18.662 +06:00 [INF] Sending file. Request path: '/css/shortcode/header.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\shortcode\header.css'
+2023-05-06 15:05:18.667 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/shortcode/footer.css - - - 200 4238 text/css 42.8808ms
+2023-05-06 15:05:18.668 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/shortcode/header.css - - - 200 5127 text/css 48.3961ms
+2023-05-06 15:05:18.672 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/meanmenu.min.css - -
+2023-05-06 15:05:18.668 +06:00 [INF] Sending file. Request path: '/css/shortcode/default.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\shortcode\default.css'
+2023-05-06 15:05:18.671 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/style.css - - - 200 30445 text/css 158.3492ms
+2023-05-06 15:05:18.677 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/owl.carousel.css - -
+2023-05-06 15:05:18.678 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/shortcode/default.css - - - 200 17489 text/css 58.2532ms
+2023-05-06 15:05:18.685 +06:00 [INF] Sending file. Request path: '/css/magnific-popup.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\magnific-popup.css'
+2023-05-06 15:05:18.687 +06:00 [INF] Sending file. Request path: '/css/material-design-iconic-font.min.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\material-design-iconic-font.min.css'
+2023-05-06 15:05:18.689 +06:00 [INF] Sending file. Request path: '/css/material-design-iconic-font.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\material-design-iconic-font.css'
+2023-05-06 15:05:18.693 +06:00 [INF] Sending file. Request path: '/css/animate.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\animate.css'
+2023-05-06 15:05:18.692 +06:00 [INF] Sending file. Request path: '/css/meanmenu.min.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\meanmenu.min.css'
+2023-05-06 15:05:18.689 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/magnific-popup.css - - - 200 5204 text/css 43.4909ms
+2023-05-06 15:05:18.698 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/material-design-iconic-font.min.css - - - 200 70827 text/css 77.3044ms
+2023-05-06 15:05:18.701 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/meanmenu.min.css - - - 200 2968 text/css 28.7119ms
+2023-05-06 15:05:18.703 +06:00 [INF] Sending file. Request path: '/css/owl.carousel.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\owl.carousel.css'
+2023-05-06 15:05:18.701 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/material-design-iconic-font.css - - - 200 85316 text/css 71.7694ms
+2023-05-06 15:05:18.669 +06:00 [INF] Sending file. Request path: '/css/shortcode/slider.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\shortcode\slider.css'
+2023-05-06 15:05:18.678 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/bootstrap.min.css - - - 200 121204 text/css 161.2836ms
+2023-05-06 15:05:18.711 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/owl.carousel.css - - - 200 4614 text/css 33.2247ms
+2023-05-06 15:05:18.713 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/shortcode/slider.css - - - 200 3701 text/css 93.3508ms
+2023-05-06 15:05:18.662 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/css/slick.css - -
+2023-05-06 15:05:18.701 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/animate.css - - - 200 70824 text/css 68.7033ms
+2023-05-06 15:05:18.727 +06:00 [INF] Sending file. Request path: '/css/slick.css'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\css\slick.css'
+2023-05-06 15:05:18.729 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/css/slick.css - - - 200 1307 text/css 67.1637ms
+2023-05-06 15:05:18.732 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/js/vendor/jquery-1.12.4.min.js - -
+2023-05-06 15:05:18.781 +06:00 [INF] Sending file. Request path: '/js/vendor/jquery-1.12.4.min.js'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\js\vendor\jquery-1.12.4.min.js'
+2023-05-06 15:05:18.786 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/js/vendor/jquery-1.12.4.min.js - - - 200 97163 application/javascript 54.3862ms
+2023-05-06 15:05:18.802 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/js/bootstrap.min.js - -
+2023-05-06 15:05:18.842 +06:00 [INF] Sending file. Request path: '/js/bootstrap.min.js'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\js\bootstrap.min.js'
+2023-05-06 15:05:18.844 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/js/bootstrap.min.js - - - 200 37045 application/javascript 41.7459ms
+2023-05-06 15:05:18.846 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/js/owl.carousel.min.js - -
+2023-05-06 15:05:18.873 +06:00 [INF] Sending file. Request path: '/js/owl.carousel.min.js'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\js\owl.carousel.min.js'
+2023-05-06 15:05:18.876 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/js/owl.carousel.min.js - - - 200 77685 application/javascript 29.4889ms
+2023-05-06 15:05:18.879 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/js/ajax-mail.js - -
+2023-05-06 15:05:18.891 +06:00 [INF] Sending file. Request path: '/js/ajax-mail.js'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\js\ajax-mail.js'
+2023-05-06 15:05:18.893 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/js/ajax-mail.js - - - 200 1201 application/javascript 13.9020ms
+2023-05-06 15:05:18.895 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/js/jquery.ajaxchimp.min.js - -
+2023-05-06 15:05:18.910 +06:00 [INF] Sending file. Request path: '/js/jquery.ajaxchimp.min.js'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\js\jquery.ajaxchimp.min.js'
+2023-05-06 15:05:18.912 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/js/jquery.ajaxchimp.min.js - - - 200 2449 application/javascript 16.6878ms
+2023-05-06 15:05:18.914 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/js/jquery.meanmenu.js - -
+2023-05-06 15:05:18.930 +06:00 [INF] Sending file. Request path: '/js/jquery.meanmenu.js'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\js\jquery.meanmenu.js'
+2023-05-06 15:05:18.932 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/js/jquery.meanmenu.js - - - 200 11467 application/javascript 18.5291ms
+2023-05-06 15:05:18.935 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/js/jquery.counterup.min.js - -
+2023-05-06 15:05:18.952 +06:00 [INF] Sending file. Request path: '/js/jquery.counterup.min.js'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\js\jquery.counterup.min.js'
+2023-05-06 15:05:18.954 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/js/jquery.counterup.min.js - - - 200 1067 application/javascript 18.8731ms
+2023-05-06 15:05:18.956 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/js/waypoints.min.js - -
+2023-05-06 15:05:18.975 +06:00 [INF] Sending file. Request path: '/js/waypoints.min.js'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\js\waypoints.min.js'
+2023-05-06 15:05:18.977 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/js/waypoints.min.js - - - 200 8044 application/javascript 20.9831ms
+2023-05-06 15:05:18.979 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/js/isotope.pkgd.min.js - -
+2023-05-06 15:05:19.005 +06:00 [INF] Sending file. Request path: '/js/isotope.pkgd.min.js'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\js\isotope.pkgd.min.js'
+2023-05-06 15:05:19.008 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/js/isotope.pkgd.min.js - - - 200 34695 application/javascript 28.7425ms
+2023-05-06 15:05:19.014 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/js/imagesloaded.pkgd.min.js - -
+2023-05-06 15:05:19.032 +06:00 [INF] Sending file. Request path: '/js/imagesloaded.pkgd.min.js'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\js\imagesloaded.pkgd.min.js'
+2023-05-06 15:05:19.034 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/js/imagesloaded.pkgd.min.js - - - 200 5441 application/javascript 20.2196ms
+2023-05-06 15:05:19.036 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/js/jquery.magnific-popup.js - -
+2023-05-06 15:05:19.059 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/js/plugins.js - -
+2023-05-06 15:05:19.063 +06:00 [INF] Sending file. Request path: '/js/jquery.magnific-popup.js'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\js\jquery.magnific-popup.js'
+2023-05-06 15:05:19.066 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/js/jquery.magnific-popup.js - - - 200 41742 application/javascript 30.1822ms
+2023-05-06 15:05:19.083 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/logo/logo.png - -
+2023-05-06 15:05:19.087 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/room/1.jpg - -
+2023-05-06 15:05:19.088 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/room/2.jpg - -
+2023-05-06 15:05:19.088 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/banner/4.jpg - -
+2023-05-06 15:05:19.087 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/room/3.jpg - -
+2023-05-06 15:05:19.087 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/js/main.js - -
+2023-05-06 15:05:19.087 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/room/4.jpg - -
+2023-05-06 15:05:19.111 +06:00 [INF] Sending file. Request path: '/img/logo/logo.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\logo\logo.png'
+2023-05-06 15:05:19.111 +06:00 [INF] Sending file. Request path: '/js/plugins.js'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\js\plugins.js'
+2023-05-06 15:05:19.115 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/logo/logo.png - - - 200 2876 image/png 31.4800ms
+2023-05-06 15:05:19.121 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - -
+2023-05-06 15:05:19.124 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/js/plugins.js - - - 200 54000 application/javascript 64.8408ms
+2023-05-06 15:05:19.128 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/icon/spa.png - -
+2023-05-06 15:05:19.133 +06:00 [INF] Sending file. Request path: '/js/main.js'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\js\main.js'
+2023-05-06 15:05:19.137 +06:00 [INF] Sending file. Request path: '/img/banner/4.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\banner\4.jpg'
+2023-05-06 15:05:19.141 +06:00 [INF] Sending file. Request path: '/img/room/3.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\room\3.jpg'
+2023-05-06 15:05:19.141 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/js/main.js - - - 200 7138 application/javascript 54.0272ms
+2023-05-06 15:05:19.141 +06:00 [INF] Sending file. Request path: '/img/room/2.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\room\2.jpg'
+2023-05-06 15:05:19.147 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/room/3.jpg - - - 200 152391 image/jpeg 60.0527ms
+2023-05-06 15:05:19.149 +06:00 [INF] Sending file. Request path: '/img/icon/spa.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\icon\spa.png'
+2023-05-06 15:05:19.150 +06:00 [INF] Sending file. Request path: '/img/room/4.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\room\4.jpg'
+2023-05-06 15:05:19.155 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/icon/swim.png - -
+2023-05-06 15:05:19.156 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/icon/spa.png - - - 200 1976 image/png 27.5142ms
+2023-05-06 15:05:19.152 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/room/2.jpg - - - 200 172360 image/jpeg 63.4088ms
+2023-05-06 15:05:19.140 +06:00 [INF] Sending file. Request path: '/img/room/1.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\room\1.jpg'
+2023-05-06 15:05:19.164 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/icon/restaurent.png - -
+2023-05-06 15:05:19.165 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/icon/swim-hover.png - -
+2023-05-06 15:05:19.167 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/icon/restaurent-hover.png - -
+2023-05-06 15:05:19.145 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/banner/4.jpg - - - 200 200374 image/jpeg 57.4011ms
+2023-05-06 15:05:19.174 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 48.9740ms
+2023-05-06 15:05:19.177 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/icon/conference.png - -
+2023-05-06 15:05:19.180 +06:00 [INF] Sending file. Request path: '/img/icon/restaurent.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\icon\restaurent.png'
+2023-05-06 15:05:19.182 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/room/1.jpg - - - 200 205192 image/jpeg 93.4804ms
+2023-05-06 15:05:19.187 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/icon/restaurent.png - - - 200 2296 image/png 23.0124ms
+2023-05-06 15:05:19.146 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/icon/spa-hover.png - -
+2023-05-06 15:05:19.192 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/banner/1.jpg - -
+2023-05-06 15:05:19.199 +06:00 [INF] Sending file. Request path: '/img/icon/swim.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\icon\swim.png'
+2023-05-06 15:05:19.192 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/icon/conference-hover.png - -
+2023-05-06 15:05:19.162 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/room/4.jpg - - - 200 286343 image/jpeg 73.3051ms
+2023-05-06 15:05:19.210 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/icon/swim.png - - - 200 2092 image/png 53.7031ms
+2023-05-06 15:05:19.215 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/icon/link.png - -
+2023-05-06 15:05:19.218 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/icon/search.png - -
+2023-05-06 15:05:19.217 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/slider/1.jpg - -
+2023-05-06 15:05:19.221 +06:00 [INF] Sending file. Request path: '/img/icon/conference.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\icon\conference.png'
+2023-05-06 15:05:19.229 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/icon/conference.png - - - 200 1787 image/png 51.2997ms
+2023-05-06 15:05:19.231 +06:00 [INF] Sending file. Request path: '/img/icon/restaurent-hover.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\icon\restaurent-hover.png'
+2023-05-06 15:05:19.230 +06:00 [INF] Sending file. Request path: '/img/icon/link.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\icon\link.png'
+2023-05-06 15:05:19.236 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/icon/restaurent-hover.png - - - 200 2133 image/png 68.2855ms
+2023-05-06 15:05:19.239 +06:00 [INF] Sending file. Request path: '/img/icon/swim-hover.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\icon\swim-hover.png'
+2023-05-06 15:05:19.241 +06:00 [INF] Sending file. Request path: '/img/icon/search.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\icon\search.png'
+2023-05-06 15:05:19.245 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/icon/swim-hover.png - - - 200 1929 image/png 80.5799ms
+2023-05-06 15:05:19.242 +06:00 [INF] Sending file. Request path: '/img/icon/spa-hover.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\icon\spa-hover.png'
+2023-05-06 15:05:19.249 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/icon/search.png - - - 200 1250 image/png 29.9575ms
+2023-05-06 15:05:19.250 +06:00 [INF] Sending file. Request path: '/img/icon/conference-hover.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\icon\conference-hover.png'
+2023-05-06 15:05:19.250 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/banner/3.jpg - -
+2023-05-06 15:05:19.250 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/banner/2.jpg - -
+2023-05-06 15:05:19.259 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/icon/conference-hover.png - - - 200 1743 image/png 67.1900ms
+2023-05-06 15:05:19.264 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/icon/link-hover.png - -
+2023-05-06 15:05:19.255 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/gallery/1.jpg - -
+2023-05-06 15:05:19.252 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/icon/spa-hover.png - - - 200 1908 image/png 106.7395ms
+2023-05-06 15:05:19.239 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/icon/link.png - - - 200 1148 image/png 23.7508ms
+2023-05-06 15:05:19.285 +06:00 [INF] Sending file. Request path: '/img/icon/link-hover.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\icon\link-hover.png'
+2023-05-06 15:05:19.292 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/icon/link-hover.png - - - 200 1226 image/png 28.2517ms
+2023-05-06 15:05:19.295 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/icon/search-hover.png - -
+2023-05-06 15:05:19.295 +06:00 [INF] Sending file. Request path: '/img/banner/1.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\banner\1.jpg'
+2023-05-06 15:05:19.297 +06:00 [INF] Sending file. Request path: '/img/banner/2.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\banner\2.jpg'
+2023-05-06 15:05:19.305 +06:00 [INF] Sending file. Request path: '/img/gallery/1.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\gallery\1.jpg'
+2023-05-06 15:05:19.307 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/banner/2.jpg - - - 200 212242 image/jpeg 56.7703ms
+2023-05-06 15:05:19.305 +06:00 [INF] Sending file. Request path: '/img/banner/3.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\banner\3.jpg'
+2023-05-06 15:05:19.313 +06:00 [INF] Sending file. Request path: '/img/icon/search-hover.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\icon\search-hover.png'
+2023-05-06 15:05:19.319 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/gallery/3.jpg - -
+2023-05-06 15:05:19.322 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/icon/search-hover.png - - - 200 1305 image/png 25.8672ms
+2023-05-06 15:05:19.324 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/banner/3.jpg - - - 200 268238 image/jpeg 73.9529ms
+2023-05-06 15:05:19.328 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/gallery/6.jpg - -
+2023-05-06 15:05:19.311 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/gallery/1.jpg - - - 200 210820 image/jpeg 55.1611ms
+2023-05-06 15:05:19.323 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/gallery/4.jpg - -
+2023-05-06 15:05:19.310 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/gallery/2.jpg - -
+2023-05-06 15:05:19.325 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/gallery/5.jpg - -
+2023-05-06 15:05:19.307 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/banner/1.jpg - - - 200 350078 image/jpeg 114.9475ms
+2023-05-06 15:05:19.346 +06:00 [INF] Sending file. Request path: '/img/gallery/3.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\gallery\3.jpg'
+2023-05-06 15:05:19.346 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/slider/2.jpg - -
+2023-05-06 15:05:19.354 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/gallery/3.jpg - - - 200 73477 image/jpeg 35.5506ms
+2023-05-06 15:05:19.359 +06:00 [INF] Sending file. Request path: '/img/gallery/6.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\gallery\6.jpg'
+2023-05-06 15:05:19.361 +06:00 [INF] Sending file. Request path: '/img/gallery/5.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\gallery\5.jpg'
+2023-05-06 15:05:19.361 +06:00 [INF] Sending file. Request path: '/img/gallery/4.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\gallery\4.jpg'
+2023-05-06 15:05:19.359 +06:00 [INF] Sending file. Request path: '/img/gallery/2.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\gallery\2.jpg'
+2023-05-06 15:05:19.365 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/gallery/6.jpg - - - 200 114274 image/jpeg 36.7321ms
+2023-05-06 15:05:19.371 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/gallery/4.jpg - - - 200 160261 image/jpeg 47.3865ms
+2023-05-06 15:05:19.371 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/gallery/2.jpg - - - 200 116756 image/jpeg 61.4022ms
+2023-05-06 15:05:19.376 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/team/2.jpg - -
+2023-05-06 15:05:19.376 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/team/1.jpg - -
+2023-05-06 15:05:19.367 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/gallery/5.jpg - - - 200 124761 image/jpeg 41.4465ms
+2023-05-06 15:05:19.390 +06:00 [INF] Sending file. Request path: '/img/team/2.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\team\2.jpg'
+2023-05-06 15:05:19.394 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/team/2.jpg - - - 200 156876 image/jpeg 17.8562ms
+2023-05-06 15:05:19.397 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/team/3.jpg - -
+2023-05-06 15:05:19.399 +06:00 [INF] Sending file. Request path: '/img/team/1.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\team\1.jpg'
+2023-05-06 15:05:19.402 +06:00 [INF] Sending file. Request path: '/img/slider/1.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\slider\1.jpg'
+2023-05-06 15:05:19.404 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/team/1.jpg - - - 200 165520 image/jpeg 28.2102ms
+2023-05-06 15:05:19.409 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/blog/1.jpg - -
+2023-05-06 15:05:19.417 +06:00 [INF] Sending file. Request path: '/img/team/3.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\team\3.jpg'
+2023-05-06 15:05:19.424 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/team/3.jpg - - - 200 175269 image/jpeg 27.1211ms
+2023-05-06 15:05:19.427 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/blog/2.jpg - -
+2023-05-06 15:05:19.431 +06:00 [INF] Sending file. Request path: '/img/blog/1.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\blog\1.jpg'
+2023-05-06 15:05:19.431 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/slider/1.jpg - - - 200 1720959 image/jpeg 214.2838ms
+2023-05-06 15:05:19.437 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/blog/1.jpg - - - 200 101561 image/jpeg 28.6338ms
+2023-05-06 15:05:19.438 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/client/1.png - -
+2023-05-06 15:05:19.439 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/blog/3.jpg - -
+2023-05-06 15:05:19.438 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/client/1-hover.png - -
+2023-05-06 15:05:19.439 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/client/2.png - -
+2023-05-06 15:05:19.455 +06:00 [INF] Sending file. Request path: '/img/client/1.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\client\1.png'
+2023-05-06 15:05:19.455 +06:00 [INF] Sending file. Request path: '/img/blog/2.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\blog\2.jpg'
+2023-05-06 15:05:19.459 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/client/1.png - - - 200 4016 image/png 21.6102ms
+2023-05-06 15:05:19.463 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/client/2-hover.png - -
+2023-05-06 15:05:19.467 +06:00 [INF] Sending file. Request path: '/img/slider/2.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\slider\2.jpg'
+2023-05-06 15:05:19.469 +06:00 [INF] Sending file. Request path: '/img/client/1-hover.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\client\1-hover.png'
+2023-05-06 15:05:19.470 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/client/3.png - -
+2023-05-06 15:05:19.463 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/blog/2.jpg - - - 200 130748 image/jpeg 35.9412ms
+2023-05-06 15:05:19.479 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/client/1-hover.png - - - 200 3898 image/png 40.9897ms
+2023-05-06 15:05:19.488 +06:00 [INF] Sending file. Request path: '/img/client/2-hover.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\client\2-hover.png'
+2023-05-06 15:05:19.489 +06:00 [INF] Sending file. Request path: '/img/client/2.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\client\2.png'
+2023-05-06 15:05:19.494 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/client/2-hover.png - - - 200 4319 image/png 30.5087ms
+2023-05-06 15:05:19.498 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/client/4.png - -
+2023-05-06 15:05:19.485 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/client/3-hover.png - -
+2023-05-06 15:05:19.502 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/client/2.png - - - 200 4318 image/png 62.7002ms
+2023-05-06 15:05:19.505 +06:00 [INF] Sending file. Request path: '/img/client/3.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\client\3.png'
+2023-05-06 15:05:19.502 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/slider/2.jpg - - - 200 1336260 image/jpeg 156.1113ms
+2023-05-06 15:05:19.513 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/client/5-hover.png - -
+2023-05-06 15:05:19.515 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/client/3.png - - - 200 7396 image/png 44.6741ms
+2023-05-06 15:05:19.517 +06:00 [INF] Sending file. Request path: '/img/client/4.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\client\4.png'
+2023-05-06 15:05:19.513 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/client/5.png - -
+2023-05-06 15:05:19.526 +06:00 [INF] Sending file. Request path: '/img/client/3-hover.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\client\3-hover.png'
+2023-05-06 15:05:19.526 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/client/4.png - - - 200 2817 image/png 27.5977ms
+2023-05-06 15:05:19.518 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/footer/1.jpg - -
+2023-05-06 15:05:19.534 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/client/3-hover.png - - - 200 3598 image/png 49.6923ms
+2023-05-06 15:05:19.534 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/footer/2.jpg - -
+2023-05-06 15:05:19.515 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/logo/footer-logo.png - -
+2023-05-06 15:05:19.543 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/footer/3.jpg - -
+2023-05-06 15:05:19.489 +06:00 [INF] Sending file. Request path: '/img/blog/3.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\blog\3.jpg'
+2023-05-06 15:05:19.548 +06:00 [INF] Sending file. Request path: '/img/footer/1.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\footer\1.jpg'
+2023-05-06 15:05:19.509 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/client/4-hover.png - -
+2023-05-06 15:05:19.554 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/footer/1.jpg - - - 200 7131 image/jpeg 35.6145ms
+2023-05-06 15:05:19.556 +06:00 [INF] Sending file. Request path: '/img/client/5-hover.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\client\5-hover.png'
+2023-05-06 15:05:19.561 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/footer/4.jpg - -
+2023-05-06 15:05:19.563 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/footer/5.jpg - -
+2023-05-06 15:05:19.554 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/blog/3.jpg - - - 200 82958 image/jpeg 114.7939ms
+2023-05-06 15:05:19.569 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/client/5-hover.png - - - 200 3473 image/png 54.6016ms
+2023-05-06 15:05:19.573 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/footer/6.jpg - -
+2023-05-06 15:05:19.569 +06:00 [INF] Sending file. Request path: '/img/client/4-hover.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\client\4-hover.png'
+2023-05-06 15:05:19.579 +06:00 [INF] Sending file. Request path: '/img/client/5.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\client\5.png'
+2023-05-06 15:05:19.580 +06:00 [INF] Sending file. Request path: '/img/footer/3.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\footer\3.jpg'
+2023-05-06 15:05:19.584 +06:00 [INF] Sending file. Request path: '/img/footer/2.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\footer\2.jpg'
+2023-05-06 15:05:19.580 +06:00 [INF] Sending file. Request path: '/img/footer/5.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\footer\5.jpg'
+2023-05-06 15:05:19.589 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/footer/3.jpg - - - 200 10820 image/jpeg 45.9794ms
+2023-05-06 15:05:19.589 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/footer/2.jpg - - - 200 9331 image/jpeg 54.8197ms
+2023-05-06 15:05:19.592 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - -
+2023-05-06 15:05:19.595 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/bg/1.jpg - -
+2023-05-06 15:05:19.595 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/bg/2.jpg - -
+2023-05-06 15:05:19.591 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/footer/5.jpg - - - 200 8597 image/jpeg 27.9270ms
+2023-05-06 15:05:19.584 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/client/5.png - - - 200 3436 image/png 71.4310ms
+2023-05-06 15:05:19.579 +06:00 [INF] Sending file. Request path: '/img/footer/4.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\footer\4.jpg'
+2023-05-06 15:05:19.604 +06:00 [INF] Sending file. Request path: '/img/footer/6.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\footer\6.jpg'
+2023-05-06 15:05:19.606 +06:00 [INF] Sending file. Request path: '/img/logo/footer-logo.png'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\logo\footer-logo.png'
+2023-05-06 15:05:19.609 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/footer/4.jpg - - - 200 9987 image/jpeg 47.6974ms
+2023-05-06 15:05:19.614 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/logo/footer-logo.png - - - 200 2343 image/png 98.6666ms
+2023-05-06 15:05:19.612 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/fonts/Material-Design-Iconic-Fontd1f1.woff2?v=2.2.0 - -
+2023-05-06 15:05:19.610 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/footer/6.jpg - - - 200 9719 image/jpeg 37.3142ms
+2023-05-06 15:05:19.579 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/client/4-hover.png - - - 200 2887 image/png 69.3614ms
+2023-05-06 15:05:19.626 +06:00 [INF] Sending file. Request path: '/img/bg/2.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\bg\2.jpg'
+2023-05-06 15:05:19.629 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/bg/2.jpg - - - 200 210376 image/jpeg 33.8207ms
+2023-05-06 15:05:19.638 +06:00 [INF] Sending file. Request path: '/fonts/Material-Design-Iconic-Fontd1f1.woff2'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\fonts\Material-Design-Iconic-Fontd1f1.woff2'
+2023-05-06 15:05:19.641 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/fonts/Material-Design-Iconic-Fontd1f1.woff2?v=2.2.0 - - - 200 38384 font/woff2 29.1887ms
+2023-05-06 15:05:19.645 +06:00 [INF] Sending file. Request path: '/img/bg/1.jpg'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\bg\1.jpg'
+2023-05-06 15:05:19.651 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/bg/1.jpg - - - 200 550242 image/jpeg 56.3456ms
+2023-05-06 15:05:19.734 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 142.6067ms
+2023-05-06 15:05:20.270 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/img/favicon.ico - -
+2023-05-06 15:05:20.282 +06:00 [INF] Sending file. Request path: '/img/favicon.ico'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\img\favicon.ico'
+2023-05-06 15:05:20.287 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/img/favicon.ico - - - 200 1150 image/x-icon 16.2815ms
+2023-05-06 15:05:29.072 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/fonts/fontawesome-webfont3e6e.woff2?v=4.7.0 - -
+2023-05-06 15:05:29.112 +06:00 [INF] Sending file. Request path: '/fonts/fontawesome-webfont3e6e.woff2'. Physical path: 'D:\Learning\hotel-atr\WebAppMVCLesson1\wwwroot\fonts\fontawesome-webfont3e6e.woff2'
+2023-05-06 15:05:29.115 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/fonts/fontawesome-webfont3e6e.woff2?v=4.7.0 - - - 200 77160 font/woff2 42.5676ms
+2023-05-06 20:30:56.351 +06:00 [INF] User profile is available. Using 'C:\Users\asiru\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-06 20:30:56.552 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-06 20:30:56.558 +06:00 [INF] Hosting environment: Development
+2023-05-06 20:30:56.559 +06:00 [INF] Content root path: D:\Learning\hotel-atr\WebAppMVCLesson1\
+2023-05-06 20:30:56.586 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/ - -
+2023-05-06 20:30:56.676 +06:00 [INF] Executing endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (HotelWEB)'
+2023-05-06 20:30:56.709 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebAppMVCLesson1.Controllers.HomeController (HotelWEB).
+2023-05-06 20:30:56.712 +06:00 [INF] A user email: abdukasi logged in "2023-05-06T20:30:56.7124201+06:00"
+2023-05-06 20:30:56.714 +06:00 [INF] LogInformation
+2023-05-06 20:30:56.715 +06:00 [ERR] LogError
+2023-05-06 20:30:56.761 +06:00 [ERR] test Error
+System.Exception: test Error
+   at WebAppMVCLesson1.Controllers.HomeController.Index() in D:\Learning\hotel-atr\WebAppMVCLesson1\Controllers\HomeController.cs:line 23
+2023-05-06 20:30:56.814 +06:00 [INF] Executing ViewResult, running view Index.
+2023-05-06 20:30:57.161 +06:00 [INF] Executed ViewResult - view Index executed in 347.6682ms.
+2023-05-06 20:30:57.169 +06:00 [INF] Executed action WebAppMVCLesson1.Controllers.HomeController.Index (HotelWEB) in 458.0089ms
+2023-05-06 20:30:57.171 +06:00 [INF] Executed endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (HotelWEB)'
+2023-05-06 20:30:57.537 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/ - - - 200 - text/html;+charset=utf-8 953.2131ms
+2023-05-06 20:30:57.675 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - -
+2023-05-06 20:30:57.685 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 9.5439ms
+2023-05-06 20:30:57.903 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - -
+2023-05-06 20:30:57.938 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.8171ms
+2023-05-06 20:36:02.505 +06:00 [INF] User profile is available. Using 'C:\Users\asiru\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-06 20:36:02.686 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-06 20:36:02.688 +06:00 [INF] Hosting environment: Development
+2023-05-06 20:36:02.689 +06:00 [INF] Content root path: D:\Learning\hotel-atr\WebAppMVCLesson1\
+2023-05-06 20:36:02.718 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/ - -
+2023-05-06 20:36:02.800 +06:00 [INF] Executing endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (HotelWEB)'
+2023-05-06 20:36:02.844 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebAppMVCLesson1.Controllers.HomeController (HotelWEB).
+2023-05-06 20:36:02.847 +06:00 [INF] A user email: abdukasi logged in "2023-05-06T20:36:02.8474927+06:00"
+2023-05-06 20:36:02.849 +06:00 [INF] LogInformation
+2023-05-06 20:36:02.850 +06:00 [ERR] LogError
+2023-05-06 20:36:02.888 +06:00 [ERR] test Error
+System.Exception: test Error
+   at WebAppMVCLesson1.Controllers.HomeController.Index() in D:\Learning\hotel-atr\WebAppMVCLesson1\Controllers\HomeController.cs:line 23
+2023-05-06 20:36:02.914 +06:00 [INF] Executing ViewResult, running view Index.
+2023-05-06 20:36:03.231 +06:00 [INF] Executed ViewResult - view Index executed in 316.8995ms.
+2023-05-06 20:36:03.238 +06:00 [INF] Executed action WebAppMVCLesson1.Controllers.HomeController.Index (HotelWEB) in 392.3615ms
+2023-05-06 20:36:03.241 +06:00 [INF] Executed endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (HotelWEB)'
+2023-05-06 20:36:03.292 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/ - - - 200 - text/html;+charset=utf-8 576.9726ms
+2023-05-06 20:36:03.391 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - -
+2023-05-06 20:36:03.400 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 8.4858ms
+2023-05-06 20:36:03.602 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - -
+2023-05-06 20:36:03.640 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.1540ms
+2023-05-06 20:38:45.032 +06:00 [INF] User profile is available. Using 'C:\Users\asiru\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-06 20:38:45.219 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-06 20:38:45.223 +06:00 [INF] Hosting environment: Development
+2023-05-06 20:38:45.228 +06:00 [INF] Content root path: D:\Learning\hotel-atr\WebAppMVCLesson1\
+2023-05-06 20:38:45.276 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/ - -
+2023-05-06 20:38:45.383 +06:00 [INF] Executing endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (HotelWEB)'
+2023-05-06 20:38:45.426 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebAppMVCLesson1.Controllers.HomeController (HotelWEB).
+2023-05-06 20:38:45.430 +06:00 [INF] A user email: abdukasi logged in "2023-05-06T20:38:45.4306135+06:00"
+2023-05-06 20:38:45.433 +06:00 [INF] LogInformation
+2023-05-06 20:38:45.435 +06:00 [ERR] LogError
+2023-05-06 20:38:45.478 +06:00 [ERR] test Error
+System.Exception: test Error
+   at WebAppMVCLesson1.Controllers.HomeController.Index() in D:\Learning\hotel-atr\WebAppMVCLesson1\Controllers\HomeController.cs:line 23
+2023-05-06 20:38:45.502 +06:00 [INF] Executing ViewResult, running view Index.
+2023-05-06 20:38:45.701 +06:00 [INF] Executed ViewResult - view Index executed in 197.1766ms.
+2023-05-06 20:38:45.709 +06:00 [INF] Executed action WebAppMVCLesson1.Controllers.HomeController.Index (HotelWEB) in 280.8952ms
+2023-05-06 20:38:45.713 +06:00 [INF] Executed endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (HotelWEB)'
+2023-05-06 20:38:45.770 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/ - - - 200 - text/html;+charset=utf-8 500.5354ms
+2023-05-06 20:38:45.882 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - -
+2023-05-06 20:38:45.893 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 11.2966ms
+2023-05-06 20:38:46.076 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - -
+2023-05-06 20:38:46.115 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.9248ms

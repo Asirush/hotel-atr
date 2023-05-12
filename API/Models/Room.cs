@@ -19,7 +19,7 @@ namespace API.Models
         public int RoomNumber { get; set; }
         public int CategoryId { get; set; }
 
-        public virtual Category Category { get; set; } = null!;
+        //public virtual Category Category { get; set; } = null!;
 
         public virtual ICollection<RoomProperty> RoomPropertiesRoomProperties { get; set; }
     }

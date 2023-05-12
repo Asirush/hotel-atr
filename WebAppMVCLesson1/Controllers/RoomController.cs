@@ -39,11 +39,21 @@ namespace WebAppMVCLesson1.Controllers
             Room rooms = new Room();
             using(HttpClient client = new HttpClient())
             {
-                using(var request = client.GetAsync("http://localhost:5071/api/Room/GetRoomById?id=" + id))
+                using(var request = client.GetAsync("http://localhost:5236/api/Room/GetRoomById?id=" + id))
                 {
                     var result = await request.Result.Content.ReadAsStringAsync();
-                    rooms = JsonConvert.DeserializeObject<Room>(result);
-
+                    
+                    if(request.IsFaulted) {
+                        rooms = JsonConvert.DeserializeObject<Room>(result);
+                    }
+                    else if(request.Result.StatusCode == System.Net.HttpStatusCode.NotFound)
+                    {
+                        ViewBag.Message = "Информация по данной комнате не найдена";
+                    }
+                    else
+                    {
+                        ViewBag.Message = "При получении данных возникла ошибка" + result;
+                    }
                 }
             }
             return View();
